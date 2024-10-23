@@ -1,0 +1,108 @@
+\documentclass[UTF8,heading=true,12pt]{article}
+\usepackage{ctex}
+\usepackage{cite}
+\usepackage{fontawesome}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,listings,subfig,subcaption}
+\usepackage[colorlinks,linkcolor=black]{hyperref} % black 
+\usepackage{gbt7714}% 参考文献格式
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
+\usepackage{lipsum}% 生成示例
+\usepackage{titlesec,titletoc}% 设置目录格式
+\renewcommand{\contentsname}{\centering{\quad \\
+		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}}
+\usepackage[titles,subfigure]{tocloft}
+\renewcommand\cftsecdotsep{\cftdotsep}
+\renewcommand\cftsecleader{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecfont{\songti\zihao{4}}
+\renewcommand\cftsubsecfont{\songti\zihao{4}}
+\renewcommand\cftsubsubsecfont{\songti\zihao{4}}
+\renewcommand\cftsecpagefont{\mdseries}
+\renewcommand\cftsubsecpagefont{\mdseries}
+
+%\titlecontents{section}[1.5em]{\zihao{-4}\bfseries}{\contentslabel[\thecontentslabel]{1.5em}}{}{\mdseries\titlerule*[2ex]{.}\contentspage}
+
+
+\usepackage{setspace}
+\linespread{1.5} %全局1.5倍行间距
+\pagestyle{plain}% 仅页脚显示页数
+\everymath{\displaystyle}
+% 代码格式
+\lstset{
+	frame=trbl,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=true,
+	breaklines=true,
+	columns=flexible,
+	framerule=1pt,
+	rulecolor=\color{gray},
+	backgroundcolor=\color{white},
+	basicstyle={\small\ttfamily},
+	numbers=left,
+	numbersep=1em,
+	numberstyle=\color{black},
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray},
+	stringstyle=\color{mauve},
+	tabsize=3,
+}
+% 节标题字体设置
+\ctexset{section={format={\songti \zihao{4}\bfseries}},
+    subsection={format={\songti \zihao{-4}\bfseries}},
+    subsubsection={format={\fangsong \zihao{-4}}}}
+
+\title{\songti \zihao{3}\bfseries 标题}
+\author{}
+\date{\today}
+
+\begin{document}
+    %\maketitle% 标题页
+    \includepdf[pages=-]{fig/titlepage}
+    \newpage
+    \tableofcontents% 生成目录
+    \setcounter{page}{0}% 此为第零页
+    \thispagestyle{empty}% 页眉页脚为空
+    \newpage
+    \begin{center}
+    \songti \zihao{3}\bfseries 标题
+	\end{center}
+	
+	\begin{center}
+    \songti \zihao{5} 学生姓名: \qquad 学号: \\ 
+    	\songti \zihao{5} 数学与统计学院\qquad 信息与计算科学专业\\
+    	\songti \zihao{5} 指导教师:\qquad 职称:
+    \end{center}
+    \addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
+    \noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}: \quad\kaishu\zihao{-4} 摘要内容
+
+
+    \noindent {\heiti \zihao{-4}\bfseries{关键词}}:\quad\kaishu\zihao{-4} 内容
+    
+    \begin{center}
+    	\zihao{3} Title
+    \end{center}
+    \addcontentsline{toc}{section}{\bfseries Abstract}\tolerance=500 % 将Abstract放进目录
+    \noindent {\zihao{-4}\bfseries{Abstract}}:\quad\zihao{-4} \lipsum[1]
+    
+    \noindent {\zihao{-4}\bfseries{Keywords}}:\quad\zihao{-4} Ab
+    
+    %\onehalfspacing %1.5倍行间距
+    \section{前言}
+	\lipsum[2]
+
+    \section{第一节}
+    \lipsum[3]
+
+    \subsection{第一小节}
+    \lipsum[4]
+
+    \subsubsection{小小一节}
+    \lipsum[5]
+
+    \bibliography{ref/ref}
+    \addcontentsline{toc}{section}{参考文献}\tolerance=500 % 将参考文献放进目录
+
+\end{document}
+    
