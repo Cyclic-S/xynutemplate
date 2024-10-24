@@ -1,10 +1,12 @@
-\documentclass[UTF8,heading=true,12pt]{article}
+%!TeX program=xelatex
+\documentclass[UTF8,heading=true,12pt,font=songti]{article}
 \usepackage{ctex}
 \usepackage{cite}
 \usepackage{fontawesome}
 \usepackage{pdfpages}
 \usepackage{titlesec}
-\usepackage{amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,listings,subfig,subcaption}
+\usepackage{amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
+\usepackage[ruled,linesnumbered]{algorithm2e}
 \usepackage[colorlinks,linkcolor=black]{hyperref} % black 
 \usepackage{gbt7714}% 参考文献格式
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
@@ -21,9 +23,6 @@
 \renewcommand\cftsecpagefont{\mdseries}
 \renewcommand\cftsubsecpagefont{\mdseries}
 \renewcommand{\bibfont}{\zihao{5}}
-
-%\titlecontents{section}[1.5em]{\zihao{-4}\bfseries}{\contentslabel[\thecontentslabel]{1.5em}}{}{\mdseries\titlerule*[2ex]{.}\contentspage}
-
 
 \usepackage{setspace}
 \linespread{1.5} %全局1.5倍行间距
@@ -54,8 +53,18 @@
     subsection={format={\songti \zihao{-4}\bfseries}},
     subsubsection={format={\fangsong \zihao{-4}}}}
 
+% 表格及图片标题样式设置-
+\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}} %使图编号为7-1的格式 %\protect{~}
+\renewcommand{\thetable}{\arabic{section}-\arabic{table}}%使表编号为7-1的格式
+
+%表格与图片标题字体设置宋体小五
+\captionsetup[figure]{textfont=footnotesize,labelfont=footnotesize,labelformat=simple, labelsep=space}
+\captionsetup[subfigure]{labelfont=footnotesize,textfont=footnotesize}
+\captionsetup[table]{labelfont=footnotesize,textfont=footnotesize,labelformat=simple, labelsep=space}
+
+
 \title{\songti \zihao{3}\bfseries 标题}
-\author{}
+\author{李浩斌}
 \date{\today}
 
 \begin{document}
@@ -91,16 +100,40 @@
     
     %\onehalfspacing %1.5倍行间距
     \section{前言}
-	\lipsum[2]
+	$$
+    f(z_0)=\frac{1}{2\pi i}\oint_{\Gamma}\frac{f(z)}{z-z_0}\mathbb{d}z.
+    $$
 
     \section{第一节}
     \lipsum[3]
+    \begin{table}[H]
+        \centering
+        \caption{符号说明}
+        \begin{tabular}{clc} %设置表格字体位置(中左中)
+            \hline
+            \textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
+            $\eta$ & 内容$\cdots$ & 无量纲\\	
+            \hline
+        \end{tabular}
+    \end{table}
 
     \subsection{第一小节}
-    \lipsum[4]
+    \songti 引入参考文献\cite{bazlov2024momentsrepresentationnumbers}
+
 
     \subsubsection{小小一节}
-    \lipsum[5]
+    \begin{figure}[H]
+		\centering
+		\subfloat[示意图]{\includegraphics[width = 0.5\linewidth]{figure/logo-r.eps}}
+		\hfill
+		\subfloat[示意图]{\includegraphics[width = 0.5\linewidth]{figure/logo-r.eps}}
+		\hfill
+		\subfloat[示意图]{\includegraphics[width = 0.5\linewidth]{figure/logo-r.eps}}
+		\hfill
+		\subfloat[示意图]{\includegraphics[width = 0.5\linewidth]{figure/logo-r.eps}}
+		\caption{示意图}
+		\label{fig:label2}
+	\end{figure}  
 
     \bibliography{ref/ref}
     \addcontentsline{toc}{section}{参考文献}\tolerance=500 % 将参考文献放进目录

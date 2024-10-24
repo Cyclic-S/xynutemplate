@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  23 OCT 2024 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  24 OCT 2024 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,6 +669,10 @@ Package bm Info: No bold for \U/msb/m/n, using \pmb.
 Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count318
 \lst@gtempboxa=\box71
@@ -733,6 +737,14 @@ Package caption Info: listings package is loaded.
 \sf@top=\skip67
 \sf@bottom=\skip68
 )
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count335
+\float@exts=\toks48
+\float@box=\box73
+\@float@everytoks=\toks49
+\@floatcapt=\box74
+)
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 LaTeX Info: Redefining \subref on input line 189.
@@ -742,6 +754,57 @@ line 238.
 Package subcaption Info: The counter `subtable' was already defined by
 (subcaption)             \newsubfloat (offered by the subfig package) on input 
 line 238.
+)
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count336
+\algocf@hangindent=\skip69
+
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count337
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip70
+\skiplinenumber=\skip71
+\skiprule=\skip72
+\skiphlne=\skip73
+\skiptext=\skip74
+\skiplength=\skip75
+\algomargin=\skip76
+\skipalgocfslide=\skip77
+\algowidth=\dimen287
+\inoutsize=\dimen288
+\inoutindent=\dimen289
+\interspacetitleruled=\dimen290
+\interspacealgoruled=\dimen291
+\interspacetitleboxruled=\dimen292
+\algocf@ruledwidth=\skip78
+\algocf@inoutbox=\box75
+\algocf@inputbox=\box76
+\AlCapSkip=\skip79
+\AlCapHSkip=\skip80
+\algoskipindent=\skip81
+\algocf@nlbox=\box77
+\algocf@hangingbox=\box78
+\algocf@untilbox=\box79
+\algocf@skipuntil=\skip82
+\algocf@capbox=\box80
+\algocf@lcaptionbox=\skip83
+\algoheightruledefault=\skip84
+\algoheightrule=\skip85
+\algotitleheightruledefault=\skip86
+\algotitleheightrule=\skip87
+\c@algocfline=\count338
+\c@algocfproc=\count339
+\c@algocf=\count340
+\algocf@algoframe=\box81
+\algocf@algobox=\box82
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
@@ -784,18 +847,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count335
+\c@section@level=\count341
 ) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count336
+\etb@tempcnta=\count342
 )
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen287
-\Hy@linkcounter=\count337
-\Hy@pagecounter=\count338
+\@linkdim=\dimen293
+\Hy@linkcounter=\count343
+\Hy@pagecounter=\count344
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
@@ -805,7 +868,7 @@ Now handling font encoding PD1 ...
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count339
+\Hy@SavedSpaceFactor=\count345
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
@@ -821,14 +884,9 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count340
-
-(C:\Program Files\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count346
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen288
+\XeTeXLinkMargin=\dimen294
 
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -837,9 +895,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count341
-\Field@Width=\dimen289
-\Fld@charsize=\dimen290
+\Fld@menulength=\count347
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -852,9 +910,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count342
-\c@Item=\count343
-\c@Hfootnote=\count344
+\Hy@abspage=\count348
+\c@Item=\count349
+\c@Hfootnote=\count350
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -866,8 +924,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count345
-\c@bookmark@seq@number=\count346
+\Fld@listcount=\count351
+\c@bookmark@seq@number=\count352
 
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.
 sty
@@ -880,7 +938,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip88
 ) (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/gbt7714\gbt7714.sty
 Package: gbt7714 2022/10/03 v2.1.5 GB/T 7714 BibTeX Style
 
@@ -891,29 +949,29 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 Package natbib Warning: The `cite' package should not be used
 (natbib)                with natbib. Use option `sort' instead.
 
-\bibhang=\skip70
-\bibsep=\skip71
+\bibhang=\skip89
+\bibsep=\skip90
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count347
+\c@NAT@ctr=\count353
 )) (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count348
-\Gm@cntv=\count349
-\c@Gm@tempcnt=\count350
-\Gm@bindingoffset=\dimen291
-\Gm@wd@mp=\dimen292
-\Gm@odd@mp=\dimen293
-\Gm@even@mp=\dimen294
-\Gm@layoutwidth=\dimen295
-\Gm@layoutheight=\dimen296
-\Gm@layouthoffset=\dimen297
-\Gm@layoutvoffset=\dimen298
-\Gm@dimlist=\toks48
+\Gm@cnth=\count354
+\Gm@cntv=\count355
+\c@Gm@tempcnt=\count356
+\Gm@bindingoffset=\dimen297
+\Gm@wd@mp=\dimen298
+\Gm@odd@mp=\dimen299
+\Gm@even@mp=\dimen300
+\Gm@layoutwidth=\dimen301
+\Gm@layoutheight=\dimen302
+\Gm@layouthoffset=\dimen303
+\Gm@layoutvoffset=\dimen304
+\Gm@dimlist=\toks50
 
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
@@ -921,55 +979,55 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count351
-\l__lipsum_a_int=\count352
-\l__lipsum_b_int=\count353
+\g__lipsum_par_int=\count357
+\l__lipsum_a_int=\count358
+\l__lipsum_b_int=\count359
 
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/titlesec\titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen299
+\ttl@leftsep=\dimen305
 )
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip72
-\cftbeforetoctitleskip=\skip73
-\cftaftertoctitleskip=\skip74
-\cftbeforepartskip=\skip75
-\cftpartnumwidth=\skip76
-\cftpartindent=\skip77
-\cftbeforesecskip=\skip78
-\cftsecindent=\skip79
-\cftsecnumwidth=\skip80
-\cftbeforesubsecskip=\skip81
-\cftsubsecindent=\skip82
-\cftsubsecnumwidth=\skip83
-\cftbeforesubsubsecskip=\skip84
-\cftsubsubsecindent=\skip85
-\cftsubsubsecnumwidth=\skip86
-\cftbeforeparaskip=\skip87
-\cftparaindent=\skip88
-\cftparanumwidth=\skip89
-\cftbeforesubparaskip=\skip90
-\cftsubparaindent=\skip91
-\cftsubparanumwidth=\skip92
-\cftbeforeloftitleskip=\skip93
-\cftafterloftitleskip=\skip94
-\cftbeforefigskip=\skip95
-\cftfigindent=\skip96
-\cftfignumwidth=\skip97
-\cftbeforelottitleskip=\skip98
-\cftafterlottitleskip=\skip99
-\cftbeforetabskip=\skip100
-\cfttabindent=\skip101
-\cfttabnumwidth=\skip102
-\cftbeforesubfigskip=\skip103
-\cftsubfigindent=\skip104
-\cftsubfignumwidth=\skip105
-\cftbeforesubtabskip=\skip106
-\cftsubtabindent=\skip107
-\cftsubtabnumwidth=\skip108
+\cftparskip=\skip91
+\cftbeforetoctitleskip=\skip92
+\cftaftertoctitleskip=\skip93
+\cftbeforepartskip=\skip94
+\cftpartnumwidth=\skip95
+\cftpartindent=\skip96
+\cftbeforesecskip=\skip97
+\cftsecindent=\skip98
+\cftsecnumwidth=\skip99
+\cftbeforesubsecskip=\skip100
+\cftsubsecindent=\skip101
+\cftsubsecnumwidth=\skip102
+\cftbeforesubsubsecskip=\skip103
+\cftsubsubsecindent=\skip104
+\cftsubsubsecnumwidth=\skip105
+\cftbeforeparaskip=\skip106
+\cftparaindent=\skip107
+\cftparanumwidth=\skip108
+\cftbeforesubparaskip=\skip109
+\cftsubparaindent=\skip110
+\cftsubparanumwidth=\skip111
+\cftbeforeloftitleskip=\skip112
+\cftafterloftitleskip=\skip113
+\cftbeforefigskip=\skip114
+\cftfigindent=\skip115
+\cftfignumwidth=\skip116
+\cftbeforelottitleskip=\skip117
+\cftafterlottitleskip=\skip118
+\cftbeforetabskip=\skip119
+\cfttabindent=\skip120
+\cfttabnumwidth=\skip121
+\cftbeforesubfigskip=\skip122
+\cftsubfigindent=\skip123
+\cftsubfignumwidth=\skip124
+\cftbeforesubtabskip=\skip125
+\cftsubtabindent=\skip126
+\cftsubtabnumwidth=\skip127
 )
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -979,105 +1037,109 @@ File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-) (main.aux)
+)
+
+LaTeX Warning: Unused global option(s):
+    [font].
+
+(main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen300
-\scratchbox=\box73
-\nofMPsegments=\count355
-\nofMParguments=\count356
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen301
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count360
+\scratchdimen=\dimen306
+\scratchbox=\box83
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen307
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks52
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1098,12 +1160,13 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count360
+\c@lstlisting=\count366
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 60.
+Package hyperref Info: Link coloring ON on input line 70.
  (main.out)
 (main.out)
 \@outlinefile=\write4
@@ -1148,10 +1211,10 @@ Package hyperref Info: Link coloring ON on input line 60.
 
 pdfTeX warning: pdflatex (file ./fig/titlepage.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<fig/titlepage.pdf, id=32, 597.55246pt x 845.07724pt>
+<fig/titlepage.pdf, id=33, 597.55246pt x 845.07724pt>
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf>
-Package pdftex.def Info: fig/titlepage.pdf  used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -1159,7 +1222,7 @@ pdfTeX warning: pdflatex (file ./fig/titlepage.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf>
-Package pdftex.def Info: fig/titlepage.pdf  used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -1169,22 +1232,22 @@ ersion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./fig/titlepage.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<fig/titlepage.pdf, id=35, page=1, 597.55246pt x 845.07724pt>
+<fig/titlepage.pdf, id=36, page=1, 597.55246pt x 845.07724pt>
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf, page 1>
-Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 72.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf, page 1>
-Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 72.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf, page 1>
-Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 72.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf, page 1>
-Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 72.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 
 
@@ -1197,14 +1260,14 @@ TeX and DVIPDFMx (CTEX)
 code.sfd})
 File: fig/titlepage.pdf Graphic file (type pdf)
 <use fig/titlepage.pdf, page 1>
-Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 62.
+Package pdftex.def Info: fig/titlepage.pdf , page1 used on input line 72.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
  [1
 
 
  <./fig/titlepage.pdf>]
 LaTeX Font Info:    Trying to load font information for C70+zhhei on input line
- 64.
+ 74.
 
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/zhmetrics\c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
@@ -1241,12 +1304,18 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 11.74988pt
-(hyperref)                replaced by space on input line 77.
+(hyperref)                replaced by space on input line 87.
 
 LaTeX Font Info:    Trying to load font information for C70+zhkai on input line
- 78.
+ 88.
 (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/zhmetrics\c70zhkai.fd
 File: c70zhkai.fd 2009/09/23 4.8.2
+)
+Missing character: There is no d in font msbm10!
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 11
+1.
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/ctex/fd\c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 
 
@@ -1254,57 +1323,135 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 
-      [1]
+l.118     \end{table}
+                      [1]
 LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 
-101.
- (C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/zhmetrics\c70zhfs.fd
+124.
+
+(C:\Users\INTma\AppData\Roaming\MiKTeX\tex/latex/zhmetrics\c70zhfs.fd
 File: c70zhfs.fd 2009/09/23 4.8.2
-) (main.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 14.
-
 )
+Package epstopdf Info: Source file: <figure/logo-r.eps>
+(epstopdf)                    date: 2024-10-14 23:08:47
+(epstopdf)                    size: 84081 bytes
+(epstopdf)             Output file: <figure/logo-r-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-24 11:58:41
+(epstopdf)                    size: 32951 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figure/logo-r-eps-co
+nverted-to.pdf figure/logo-r.eps>
+(epstopdf)             \includegraphics on input line 127.
+Package epstopdf Info: Output file is already uptodate.
+<figure/logo-r-eps-converted-to.pdf, id=176, 432.61626pt x 436.63126pt>
+File: figure/logo-r-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/logo-r-eps-converted-to.pdf>
+Package pdftex.def Info: figure/logo-r-eps-converted-to.pdf  used on input line
+ 127.
+(pdftex.def)             Requested size: 228.90242pt x 231.02704pt.
+Package epstopdf Info: Source file: <figure/logo-r.eps>
+(epstopdf)                    date: 2024-10-14 23:08:47
+(epstopdf)                    size: 84081 bytes
+(epstopdf)             Output file: <figure/logo-r-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-24 11:58:41
+(epstopdf)                    size: 32951 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figure/logo-r-eps-co
+nverted-to.pdf figure/logo-r.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: figure/logo-r-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/logo-r-eps-converted-to.pdf>
+Package pdftex.def Info: figure/logo-r-eps-converted-to.pdf  used on input line
+ 129.
+(pdftex.def)             Requested size: 228.90242pt x 231.02704pt.
+Package epstopdf Info: Source file: <figure/logo-r.eps>
+(epstopdf)                    date: 2024-10-14 23:08:47
+(epstopdf)                    size: 84081 bytes
+(epstopdf)             Output file: <figure/logo-r-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-24 11:58:41
+(epstopdf)                    size: 32951 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figure/logo-r-eps-co
+nverted-to.pdf figure/logo-r.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+File: figure/logo-r-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/logo-r-eps-converted-to.pdf>
+Package pdftex.def Info: figure/logo-r-eps-converted-to.pdf  used on input line
+ 131.
+(pdftex.def)             Requested size: 228.90242pt x 231.02704pt.
+Package epstopdf Info: Source file: <figure/logo-r.eps>
+(epstopdf)                    date: 2024-10-14 23:08:47
+(epstopdf)                    size: 84081 bytes
+(epstopdf)             Output file: <figure/logo-r-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-24 11:58:41
+(epstopdf)                    size: 32951 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figure/logo-r-eps-co
+nverted-to.pdf figure/logo-r.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+File: figure/logo-r-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/logo-r-eps-converted-to.pdf>
+Package pdftex.def Info: figure/logo-r-eps-converted-to.pdf  used on input line
+ 133.
+(pdftex.def)             Requested size: 228.90242pt x 231.02704pt.
 
-[2]
 
-[3] (main.aux)
+[2] (main.bbl
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 19.
+
+
+
+[3 <./figure/logo-r-eps-converted-to.pdf>])
+
+[4] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2022/07/14>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 72CA0035E432170C3326AF530B758232;549.
+(rerunfilecheck)             Checksum: A2A2A38A2330915BA7384B263C604B90;546.
  ) 
 Here is how much of TeX's memory you used:
- 31910 strings out of 473898
- 585090 string characters out of 5736293
- 1030893 words of memory out of 5000000
- 54113 multiletter control sequences out of 15000+600000
- 583517 words of font info for 126 fonts, out of 8000000 for 9000
+ 33150 strings out of 473898
+ 606331 string characters out of 5736293
+ 1058875 words of memory out of 5000000
+ 55278 multiletter control sequences out of 15000+600000
+ 598188 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,17n,92p,708b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts
-/simfang.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
-ows/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf>
-<C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
+ 88i,17n,92p,708b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
+imfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simfang.ttf><C:/Wind
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
 hei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
-onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
-indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
-tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
-simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Window
+onts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
+indows/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.t
+tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/
+simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Window
 s/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C
 :/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsu
 n.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
 ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
 dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr12.pfb>
-Output written on main.pdf (5 pages, 544973 bytes).
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
+ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (6 pages, 670094 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
