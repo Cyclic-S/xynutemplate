@@ -1,8 +1,8 @@
-\contentsline {section}{摘\hskip 1em\relax 要}{1}{Doc-Start}%
-\contentsline {section}{\bfseries Abstract}{1}{Doc-Start}%
+\contentsline {section}{摘\hskip 1em\relax 要}{1}{table.caption.1}%
+\contentsline {section}{\bfseries Abstract}{1}{table.caption.1}%
 \contentsline {section}{\numberline {1}前言}{1}{section.1}%
 \contentsline {section}{\numberline {2}第一节}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}第一小节}{2}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}小小一节}{3}{subsubsection.2.1.1}%
-\contentsline {section}{参考文献}{4}{figure.caption.2}%
+\contentsline {section}{参考文献}{4}{figure.caption.3}%
 \contentsfinish 

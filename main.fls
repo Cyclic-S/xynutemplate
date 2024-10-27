@@ -407,6 +407,7 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei5f.
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhsong.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhsong.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhsong.fd
@@ -450,6 +451,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong52.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong8a.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7b.tfm
@@ -465,6 +467,29 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong68.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong98.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5b.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong75.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong59.tfm
@@ -482,8 +507,6 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong63.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5e.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong80.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei64.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei89.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhkai.fd
@@ -496,6 +519,8 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unikai\unikai5b.
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei51.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei95.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei8b.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong52.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong8a.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
@@ -503,6 +528,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7b.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong4e.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong82.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
@@ -517,21 +545,16 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei53.
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei8b.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei66.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei4f.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong51.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5b.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong65.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong95.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong76.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong51.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong73.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong91.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7e.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7b.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong4e.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5c.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong82.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5f.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong51.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong53.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong80.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong65.tfm
-INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong73.tfm
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhfs.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhfs.fd
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\zhmetrics\c70zhfs.fd
@@ -587,29 +610,10 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
-INPUT C:\Users\INTma\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong53.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong80.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong65.tfm
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong73.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -618,6 +622,8 @@ INPUT C:\Windows\Fonts\simsun.ttc
 INPUT C:\Windows\Fonts\simfang.ttf
 INPUT C:\Windows\Fonts\simfang.ttf
 INPUT C:\Windows\Fonts\simfang.ttf
+INPUT C:\Windows\Fonts\simsun.ttc
+INPUT C:\Windows\Fonts\simsun.ttc
 INPUT C:\Windows\Fonts\simsun.ttc
 INPUT C:\Windows\Fonts\simsun.ttc
 INPUT C:\Windows\Fonts\simsun.ttc
