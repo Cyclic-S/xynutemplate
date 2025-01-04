@@ -1,6 +1,11 @@
 # xynutemplate
 
+本项目提供了一个用于排版信阳师范大学学士毕业论文的Latex模板**（非官方）**。
+
+当前标准 [关于开展2025届本科毕业论文（设计）工作的通知](http://jwc.xynu.edu.cn/info/1038/9746.htm)
+
 ## 使用说明
+
 * ```main.tex```导言区中
 ```tex
 \usepackage[colorlinks,linkcolor=blue]{hyperref} % 将blue替换为black可修改目录文字颜色为黑色 
