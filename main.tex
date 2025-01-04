@@ -12,53 +12,64 @@
 \usepackage{gbt7714}% 参考文献格式
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
 \usepackage{lipsum}% 生成示例
-\include{pset} % 论文格式设置文件
+\usepackage{pset}% 论文格式设置文件
 
-%\title{\songti \zihao{3}\bfseries 标题}
-%\author{}
-%\date{\today}
+%封面信息
+\college{数学与统计学院}%学院
+\serialnumber{20215034000}%学号
+\major{信息与计算科学}%专业班级
+\advisor{NAME}%指导老师
+\grade{2021级} %届次
+\submityear{25}%提交年份
+\submitmonth{1}%提交月份
+\entitle{Title}		%英文标题
+\entitletra{}     %英文多余一行
+\author{NAME}   %作者
+\submitdate{1}   %提交日
+\titlefirst{标题}      %题目第一行
+\titlesecond{Subtitle}  %题目第二行
+\advisors{Pr.}	 %指导老师带职称
 
 \begin{document}
-    %\maketitle% 标题页
-    \includepdf[pages=-]{fig/titlepage}
-    \newpage
-    \tableofcontents% 生成目录
-    \setcounter{page}{0}% 此为第零页
-    \thispagestyle{empty}% 页眉页脚为空
-    \newpage
-    \begin{center}
-    \songti \zihao{3}\bfseries 标题
+	\maketitle% 标题页
+	\newpage
+	\tableofcontents% 生成目录
+	\setcounter{page}{0}% 此为第零页
+	\thispagestyle{empty}% 页眉页脚为空
+	\newpage
+	\begin{center}
+		\songti \zihao{3}\bfseries{\the\titlefirst}%中文标题
 	\end{center}
-
-    \begin{table}[H]
-        \vspace{-1.5em}
-        \centering
-        \begin{spacing}{1.5}
-        \songti \zihao{5}
-        \begin{tabular}{rl} %设置表格字体位置(右左)
-            学生姓名:\ NAME & 学号:\ 20215034000\\ 
-            数学与统计学院 & 信息与计算科学专业\\
-            指导教师:\ NAME & 职称:\ \\	
-        \end{tabular}
-        \end{spacing}
-        \vspace{-1.5em}
-    \end{table}
 	
-    \addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
-    \noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}: \kaishu\zihao{-4} \ 摘要内容 % 无缩进
-
-
-    \noindent {\heiti \zihao{-4}\bfseries{关键词}}:\kaishu\zihao{-4} \ 内容 % 无缩进
-    
-    \begin{center}
-    	\zihao{3} Title
-    \end{center}
-    \addcontentsline{toc}{section}{\bfseries Abstract}\tolerance=500 % 将Abstract放进目录
-    \noindent {\zihao{-4}\bfseries{Abstract}}:\ \zihao{-4} \lipsum[1]
-    
-    \noindent {\zihao{-4}\bfseries{Keywords}}:\ \zihao{-4} Ab
-    
-    %\onehalfspacing %1.5倍行间距
+	\begin{table}[H]
+		\vspace{-1.5em}
+		\centering
+		\begin{spacing}{1.5}
+			\songti \zihao{5}
+			\begin{tabular}{rl} %设置表格字体位置(右左)
+				学生姓名: {\the\author} & 学号: {\the\serialnumber}\\ 
+				{\the\college} & {\the\major}专业\\
+				指导教师: {\the\advisor} & 职称: {\the\advisors}\\	
+			\end{tabular}
+		\end{spacing}
+		\vspace{-1.5em}
+	\end{table}
+	
+	\addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
+	\noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}: \kaishu\zihao{-4} \ 摘要内容 % 无缩进
+	
+	
+	\noindent {\heiti \zihao{-4}\bfseries{关键词}}:\kaishu\zihao{-4} \ 内容 % 无缩进
+	
+	\begin{center}
+		\zihao{3}{\the\entitle}%英文标题
+	\end{center}
+	\addcontentsline{toc}{section}{\bfseries Abstract}\tolerance=500 % 将Abstract放进目录
+	\noindent {\zihao{-4}\bfseries{Abstract}}:\ \zihao{-4} \lipsum[1]
+	
+	\noindent {\zihao{-4}\bfseries{Keywords}}:\ \zihao{-4} Ab
+	
+	%\onehalfspacing %1.5倍行间距
     \section{前言}
     \songti
 	$$

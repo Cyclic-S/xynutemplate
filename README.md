@@ -1,32 +1,21 @@
 # xynutemplate
 
-## 论文封面
-
-```\fig\titlepage.doc```更改信息后需另存为pdf格式（word中```选项->打印->Microsoft Print to PDF```）并替换```\fig\titlepage.pdf```
-
-## 论文格式设置
-
-详见```pset.tex```
-
-## Tex文件导言区
-
-```main.tex```中
-
+## 使用说明
+* ```main.tex```导言区中
 ```tex
 \usepackage[colorlinks,linkcolor=blue]{hyperref} % 将blue替换为black可修改目录文字颜色为黑色 
 ```
 
-## Tex文件运行
+* **xelatex,pdflatex,latexmk均可**。建议使用命令行窗口```latexmk -pdf main.tex```
 
-```main.tex```
+* 使用BibTeX文献管理，用编辑器编辑```ref/ref.bib```文件或使用[JabRef](https://www.jabref.org/)打开
 
-### 方式一：使用Tex编译器
+## 文件说明
 
-```latex,xelatex,pdflatex,latexmk```均可
-
-### 方式二：使用命令行窗口
-
-```bash
-latexmk -pdf main.tex
-```
+| 文件(夹)     | 说明                               |
+| ------------ | ---------------------------------- |
+| main.tex     | 示例文档，可作为学位论文的基本模板 |
+| ref/ref.bib  | 参考文献数据库                     |
+| pset.sty     | 论文格式设置文件                   |
+| fig/logo.png | 信阳师范大学校徽及校名图片         |
 

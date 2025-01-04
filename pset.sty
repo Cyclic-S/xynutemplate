@@ -61,3 +61,71 @@
 \captionsetup[figure]{textfont=footnotesize,labelfont=footnotesize,labelformat=simple, labelsep=space}
 \captionsetup[subfigure]{labelfont=footnotesize,textfont=footnotesize}
 \captionsetup[table]{labelfont=footnotesize,textfont=footnotesize,labelformat=simple, labelsep=space}
+
+%论文封面设置
+
+\newtoks\school %学校
+\newtoks\college%学院
+\newtoks\serialnumber%学号
+\newtoks\major%专业年级
+\newtoks\advisor%指导老师
+\newtoks\titlextra%标题多余一行时添加
+\newtoks\grade %届次
+\newtoks\submityear%提交年份
+\newtoks\submitmonth%提交月份
+\newtoks\entitle		%英文标题
+\newtoks\entitletra     %英文多余一行
+\newtoks\author   %作者
+\newtoks\submitdate   %提交日
+\newtoks\titleEn 		%英文标题
+\newtoks\titleZh       %中文标题
+\newtoks\majorEn    %专业的英文
+\newtoks\majorZh    %专业的中文
+\newtoks\authorEn    %作者的拼写
+\newtoks\advisorEn		%指导老师的拼音
+\newtoks\titlefirst      %题目第一行
+\newtoks\titlesecond  %题目第二行
+\newtoks\majortotal   %年级加专业
+\newtoks\advisors	 %职称
+%\newtoks\plogo      %logo
+
+%自定义命令 固定长度下划线
+\newcommand\dlmu[2][4cm]{\underline{\makebox[#1][c]{#2}}}
+
+\renewcommand\maketitle{%封面
+	\cleardoublepage
+	\thispagestyle{empty}
+	{
+	\rightline{
+		\begin{tabular}{l|c|} %设置表格字体位置()
+		\cline{2-2}
+		\songti\zihao{-4}学号：&{\quad \the\serialnumber \quad\  }\\
+		\cline{2-2}
+		\end{tabular}
+	}
+	\vspace{1.5cm}
+	\begin{center}
+		\includegraphics[width=11.32cm]{fig/logo.png}\\
+		\vspace{1.5cm}
+		{\kaishu\zihao{-0}\textbf{本科毕业论文（设计）}}
+		\vspace{3cm}
+		%表格1
+		\begin{center}
+			\zihao{3}
+			\renewcommand{\arraystretch}{1.2}
+			\begin{tabular}{rl}
+				&\makebox[4em][s]{学院}    \hspace{0.2cm}	\dlmu[10cm]{\the\college} \\
+				&\makebox[4em][s]{专业}	\hspace{0.2cm}		\dlmu[10cm]{\the\major}      \\
+				&\makebox[4em][s]{年级}	\hspace{0.2cm}	\dlmu[10cm]{\the\grade}   \\
+				&\makebox[4em][s]{姓名}	\hspace{0.2cm}	\dlmu[10cm]{\the\author}   \\
+				&\makebox[4em][s]{论文（设计）题目}	\hspace{1.8cm}	\dlmu[8.5cm]{\the\titlefirst}   \\ 
+				&\hspace{4.4cm}\dlmu[8.5cm] {\the\titlesecond}		\\
+				&\makebox[4em][s]{指导教师}	\hspace{0.2cm}	\dlmu[4.2cm]{\the\advisor} {职称}	\hspace{0.2cm}	\dlmu[4.2cm]{\the\advisors}   \\
+			\end{tabular}
+		\end{center}
+		\vspace{60pt}
+		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 }
+	\end{center}
+}
+\clearpage
+}
