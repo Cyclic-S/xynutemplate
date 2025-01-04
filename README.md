@@ -11,7 +11,7 @@
 \usepackage[colorlinks,linkcolor=blue]{hyperref} % 将blue替换为black可修改目录文字颜色为黑色 
 ```
 
-* **xelatex,pdflatex,latexmk均可**。建议使用命令行窗口```latexmk -pdf main.tex```
+* **xelatex,latexmk**。建议使用命令行窗口```latexmk -pdf main.tex```
 
 * 使用BibTeX文献管理，用编辑器编辑```ref/ref.bib```文件或使用[JabRef](https://www.jabref.org/)打开
 
