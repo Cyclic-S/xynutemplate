@@ -4,72 +4,19 @@
 \usepackage{fontawesome}
 \usepackage{pdfpages}
 \usepackage{titlesec}
-\usepackage{amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
+\usepackage{xparse,amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
+\usepackage{physics}
 %\usepackage{mathptmx}% 新罗马字体
 \usepackage[ruled,linesnumbered]{algorithm2e}
-\usepackage[colorlinks,linkcolor=black]{hyperref} % black 
+\usepackage[colorlinks,linkcolor=blue]{hyperref} % black 
 \usepackage{gbt7714}% 参考文献格式
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
 \usepackage{lipsum}% 生成示例
-\usepackage{titlesec,titletoc}% 设置目录格式
-\renewcommand{\contentsname}{\centering{\quad \\
-		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}}
-\usepackage[titles,subfigure]{tocloft}
-\renewcommand\cftsecdotsep{\cftdotsep}
-\renewcommand\cftsecleader{\cftdotfill{\cftsecdotsep}}
-\renewcommand\cftsecfont{\songti\zihao{-4}}% section字号字体
-\renewcommand\cftsubsecfont{\songti\zihao{-4}}% subsection字号字体
-\renewcommand\cftsubsubsecfont{\songti\zihao{-4}}% subsubsection字号字体
-\renewcommand\cftsecpagefont{\mdseries}
-\renewcommand\cftsubsecpagefont{\mdseries}
-\renewcommand{\bibfont}{\zihao{5}}
+\include{pset} % 论文格式设置文件
 
-%\titlecontents{section}[1.5em]{\zihao{-4}\bfseries}{\contentslabel[\thecontentslabel]{1.5em}}{}{\mdseries\titlerule*[2ex]{.}\contentspage}
-
-
-\usepackage{setspace}
-\linespread{1.5}% 全局1.5倍行间距
-\pagestyle{plain}% 仅页脚显示页数
-\everymath{\displaystyle}
-% 代码格式
-\lstset{
-	frame=trbl,
-	aboveskip=3mm,
-	belowskip=3mm,
-	showstringspaces=true,
-	breaklines=true,
-	columns=flexible,
-	framerule=1pt,
-	rulecolor=\color{gray},
-	backgroundcolor=\color{white},
-	basicstyle={\small\ttfamily},
-	numbers=left,
-	numbersep=1em,
-	numberstyle=\color{black},
-	keywordstyle=\color{blue},
-	commentstyle=\color{gray},
-	stringstyle=\color{mauve},
-	tabsize=3,
-}
-
-% 节标题字体设置
-\ctexset{section={format={\songti \zihao{4}\bfseries}},
-    subsection={format={\songti \zihao{-4}\bfseries}},
-    subsubsection={format={\fangsong \zihao{-4}}}}
-
-% 表格及图片标题样式设置-
-\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}} %使图编号为7-1的格式 %\protect{~}
-\renewcommand{\thetable}{\arabic{section}-\arabic{table}}%使表编号为7-1的格式
-
-%表格与图片标题字体设置宋体小五
-\captionsetup[figure]{textfont=footnotesize,labelfont=footnotesize,labelformat=simple, labelsep=space}
-\captionsetup[subfigure]{labelfont=footnotesize,textfont=footnotesize}
-\captionsetup[table]{labelfont=footnotesize,textfont=footnotesize,labelformat=simple, labelsep=space}
-
-
-\title{\songti \zihao{3}\bfseries 标题}
-\author{CY-SP}
-\date{\today}
+%\title{\songti \zihao{3}\bfseries 标题}
+%\author{}
+%\date{\today}
 
 \begin{document}
     %\maketitle% 标题页
@@ -89,9 +36,9 @@
         \begin{spacing}{1.5}
         \songti \zihao{5}
         \begin{tabular}{rl} %设置表格字体位置(右左)
-            学生姓名:\ NAME & 学号:\ NUMBER\\ 
+            学生姓名:\ NAME & 学号:\ 20215034000\\ 
             数学与统计学院 & 信息与计算科学专业\\
-            指导教师:\ NAME & 职称:\ TEXT\\	
+            指导教师:\ NAME & 职称:\ \\	
         \end{tabular}
         \end{spacing}
         \vspace{-1.5em}
@@ -113,8 +60,9 @@
     
     %\onehalfspacing %1.5倍行间距
     \section{前言}
+    \songti
 	$$
-    f(z_0)=\frac{1}{2\pi i}\oint_{\Gamma}\frac{f(z)}{z-z_0}\mathbb{d}z.
+    f(z_0)=\frac{1}{2\pi i}\oint_{\Gamma}\frac{f(z)}{z-z_0}\dd z.
     $$
 
     \section{第一节}
@@ -131,7 +79,7 @@
     \end{table}
 
     \subsection{第一小节}
-    \songti 引入参考文献\cite{bazlov2024momentsrepresentationnumbers}
+    引入参考文献\cite{bazlov2024momentsrepresentationnumbers}
 
 
     \subsubsection{小小一节}

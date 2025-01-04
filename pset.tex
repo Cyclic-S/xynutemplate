@@ -1,0 +1,63 @@
+\usepackage{titlesec,titletoc} % 设置目录格式
+\renewcommand{\contentsname}{\centering{\quad \\
+		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}} % 黑体三号字加黑居中
+\usepackage[titles,subfigure]{tocloft}
+\renewcommand\cftsecdotsep{\cftdotsep}
+\renewcommand\cftsecleader{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecfont{\songti\zihao{-4}} % section字号字体
+\renewcommand\cftsubsecfont{\songti\zihao{-4}} % subsection字号字体
+\renewcommand\cftsubsubsecfont{\songti\zihao{-4}} % subsubsection字号字体
+\renewcommand\cftsecpagefont{\mdseries}
+\renewcommand\cftsubsecpagefont{\mdseries}
+\renewcommand{\bibfont}{\zihao{5}}
+
+%\titlecontents{section}[1.5em]{\zihao{-4}\bfseries}{\contentslabel[\thecontentslabel]{1.5em}}{}{\mdseries\titlerule*[2ex]{.}\contentspage}
+%定义环境
+\renewcommand{\qed}{\hfill\blacksquare}
+\newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
+\numberwithin{equation}{subsection}
+\newtheorem{theorem}{\hspace{2em}定理}[subsection]
+\newtheorem{lemma}{\hspace{2em}引理}[subsection]
+\newtheorem{definition}{\hspace{2em}定义}[subsection]
+\newcommand{\pf}{\textbf{证明}$\quad$}
+\newcommand{\q}{\textbf{问题}$\quad$}
+\newcommand{\s}{\textbf{解答}$\quad$}
+
+\usepackage{setspace}
+\linespread{1.5} % 全局1.5倍行间距
+\pagestyle{plain} % 仅页脚显示页数
+\everymath{\displaystyle}
+% 代码格式
+\lstset{
+	frame=trbl,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=true,
+	breaklines=true,
+	columns=flexible,
+	framerule=1pt,
+	rulecolor=\color{gray},
+	backgroundcolor=\color{white},
+	basicstyle={\small\ttfamily},
+	numbers=left,
+	numbersep=1em,
+	numberstyle=\color{black},
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray},
+	stringstyle=\color{mauve},
+	tabsize=3,
+}
+
+% 节标题字体设置
+\ctexset{section={format={\songti \zihao{4}\bfseries}},
+	subsection={format={\songti \zihao{-4}\bfseries}},
+	subsubsection={format={\fangsong \zihao{-4}}}}
+
+% 表格及图片标题样式设置-
+\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}} %使图编号为1-1的格式 %\protect{~}
+\renewcommand{\thetable}{\arabic{section}-\arabic{table}}%使表编号为1-1的格式
+
+%表格与图片标题字体设置宋体小五
+\captionsetup[figure]{textfont=footnotesize,labelfont=footnotesize,labelformat=simple, labelsep=space}
+\captionsetup[subfigure]{labelfont=footnotesize,textfont=footnotesize}
+\captionsetup[table]{labelfont=footnotesize,textfont=footnotesize,labelformat=simple, labelsep=space}

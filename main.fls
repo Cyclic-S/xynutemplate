@@ -121,6 +121,8 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
@@ -260,6 +262,8 @@ INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\physics\physics.sty
+INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\physics\physics.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
@@ -337,6 +341,13 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT .\pset.tex
+INPUT .\pset.tex
+INPUT .\pset.tex
+INPUT .\pset.tex
+INPUT .\pset.tex
+INPUT .\pset.tex
+INPUT pset.tex
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\titlesec\titletoc.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\titlesec\titletoc.sty
 INPUT C:\Users\INTma\AppData\Roaming\MiKTeX\tex\latex\tocloft\tocloft.sty
