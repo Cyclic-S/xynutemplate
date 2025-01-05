@@ -1,4 +1,25 @@
-\usepackage{titlesec,titletoc} % 设置目录格式
+\usepackage{xeCJK}%导入文件夹下字体文件
+\setCJKfamilyfont{gbkaiti}{KaiTiGB2312.ttf}% 楷体_GB2312
+\newcommand{\gbkaiti}{\CJKfamily{gbkaiti}}
+\setCJKfamilyfont{gbfangsong}{FangSongGB2312.ttf}% 仿宋_GB2312
+\newcommand{\gbfangsong}{\CJKfamily{gbfangsong}}
+
+% 一些可能要用到的宏包
+\usepackage{cite}
+\usepackage{fontawesome}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{xparse,amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
+\usepackage{physics}
+%\usepackage{mathptmx}% 新罗马字体
+\usepackage{times}
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{gbt7714}% 参考文献格式
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
+\usepackage{lipsum}% 生成示例
+
+% 设置目录格式
+\usepackage{titlesec,titletoc}
 \renewcommand{\contentsname}{\centering{\quad \\
 		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}} % 黑体三号字加黑居中
 \usepackage[titles,subfigure]{tocloft}
@@ -12,6 +33,7 @@
 \renewcommand{\bibfont}{\zihao{5}}
 
 %\titlecontents{section}[1.5em]{\zihao{-4}\bfseries}{\contentslabel[\thecontentslabel]{1.5em}}{}{\mdseries\titlerule*[2ex]{.}\contentspage}
+
 %定义环境
 \renewcommand{\qed}{\hfill\blacksquare}
 \newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
@@ -23,10 +45,14 @@
 \newcommand{\q}{\textbf{问题}$\quad$}
 \newcommand{\s}{\textbf{解答}$\quad$}
 
+%行间距设置
 \usepackage{setspace}
-\linespread{1.5} % 全局1.5倍行间距
+\renewcommand{\baselinestretch}{1.5} % 1.5倍行间距
+
+%页面样式设置
 \pagestyle{plain} % 仅页脚显示页数
-\everymath{\displaystyle}
+%\everymath{\displaystyle}
+
 % 代码格式
 \lstset{
 	frame=trbl,
@@ -51,7 +77,7 @@
 % 节标题字体设置
 \ctexset{section={format={\songti \zihao{4}\bfseries}},
 	subsection={format={\songti \zihao{-4}\bfseries}},
-	subsubsection={format={\fangsong \zihao{-4}}}}
+	subsubsection={format={\gbfangsong \zihao{-4}}}}
 
 % 表格及图片标题样式设置-
 \renewcommand{\thefigure}{\arabic{section}-\arabic{figure}} %使图编号为1-1的格式 %\protect{~}
@@ -63,7 +89,7 @@
 \captionsetup[table]{labelfont=footnotesize,textfont=footnotesize,labelformat=simple, labelsep=space}
 
 %论文封面设置
-
+%参数传递
 \newtoks\school %学校
 \newtoks\college%学院
 \newtoks\serialnumber%学号
@@ -97,7 +123,7 @@
 	\thispagestyle{empty}
 	{
 	\rightline{
-		\begin{tabular}{l|c|} %设置表格字体位置()
+		\begin{tabular}{l|c|} %设置表格字体位置(左中)
 		\cline{2-2}
 		\songti\zihao{-4}学号：&{\quad \the\serialnumber \quad\  }\\
 		\cline{2-2}
@@ -107,11 +133,11 @@
 	\begin{center}
 		\includegraphics[width=11.32cm]{fig/logo.png}\\
 		\vspace{1.5cm}
-		{\kaishu\zihao{-0}\textbf{本科毕业论文（设计）}}
+		{\gbkaiti\zihao{-0}\textbf{本科毕业论文（设计）}}
 		\vspace{3cm}
-		%表格1
+		%横线信息
 		\begin{center}
-			\zihao{3}
+			\zihao{4}
 			\renewcommand{\arraystretch}{1.2}
 			\begin{tabular}{rl}
 				&\makebox[4em][s]{学院}    \hspace{0.2cm}	\dlmu[10cm]{\the\college} \\
@@ -119,11 +145,12 @@
 				&\makebox[4em][s]{年级}	\hspace{0.2cm}	\dlmu[10cm]{\the\grade}   \\
 				&\makebox[4em][s]{姓名}	\hspace{0.2cm}	\dlmu[10cm]{\the\author}   \\
 				&\makebox[4em][s]{论文（设计）题目}	\hspace{1.8cm}	\dlmu[8.5cm]{\the\titlefirst}   \\ 
-				&\hspace{4.4cm}\dlmu[8.5cm] {\the\titlesecond}		\\
+				&\hspace{4cm}\dlmu[8.5cm] {\the\titlesecond}		\\
 				&\makebox[4em][s]{指导教师}	\hspace{0.2cm}	\dlmu[4.2cm]{\the\advisor} {职称}	\hspace{0.2cm}	\dlmu[4.2cm]{\the\advisors}   \\
 			\end{tabular}
 		\end{center}
 		\vspace{60pt}
+		%日期
 		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 }
 	\end{center}
 }
