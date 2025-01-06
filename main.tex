@@ -4,30 +4,31 @@
 \usepackage[colorlinks,linkcolor=blue]{hyperref} % black 
 
 %封面信息
-\college{数学与统计学院}%学院
-\serialnumber{20215034000}%学号
-\major{信息与计算科学}%专业班级
-\advisor{NAME}%指导老师
-\grade{2021级} %届次
-\submityear{25}%提交年份
-\submitmonth{1}%提交月份
-\entitle{Title}		%英文标题
-\entitletra{}     %英文多余一行
-\author{NAME}   %作者
-\submitdate{1}   %提交日
-\titlefirst{标题}      %题目第一行
-\titlesecond{Subtitle}  %题目第二行
-\advisors{Pr.}	 %指导老师带职称
+\serialnumber{20215034000} %学号
+\college{数学与统计学院} %学院
+\major{信息与计算科学} %专业
+\grade{2021级} %年级
+\author{NAME} %作者姓名
+\titlefirst{标题} %题目第一行
+\titlesecond{Subtitle} %题目第二行
+\advisor{NAME} %指导老师
+\advisors{Prof.} %职称
+\submityear{25} %提交年份
+\submitmonth{1} %提交月份
+\submitdate{4}  %提交日
+\zhtitle{中文标题}   %中文标题
+\entitle{Title}	%英文标题
 
+%论文内容
 \begin{document}
-	\maketitle% 标题页
+	\maketitle% 论文封面
 	\newpage
 	\tableofcontents% 生成目录
 	\setcounter{page}{0}% 此为第零页
 	\thispagestyle{empty}% 页眉页脚为空
 	\newpage
 	\begin{center}
-		\songti \zihao{3}\bfseries{\the\titlefirst}%中文标题
+		\songti \zihao{3}\bfseries{\the\zhtitle}%中文标题
 	\end{center}
 	
 	\begin{table}[H]

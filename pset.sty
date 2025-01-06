@@ -90,30 +90,23 @@
 
 %论文封面设置
 %参数传递
-\newtoks\school %学校
-\newtoks\college%学院
 \newtoks\serialnumber%学号
-\newtoks\major%专业年级
-\newtoks\advisor%指导老师
-\newtoks\titlextra%标题多余一行时添加
-\newtoks\grade %届次
-\newtoks\submityear%提交年份
-\newtoks\submitmonth%提交月份
-\newtoks\entitle		%英文标题
-\newtoks\entitletra     %英文多余一行
-\newtoks\author   %作者
-\newtoks\submitdate   %提交日
-\newtoks\titleEn 		%英文标题
-\newtoks\titleZh       %中文标题
-\newtoks\majorEn    %专业的英文
-\newtoks\majorZh    %专业的中文
-\newtoks\authorEn    %作者的拼写
-\newtoks\advisorEn		%指导老师的拼音
+\newtoks\college%学院
+\newtoks\major%专业
+\newtoks\grade %年级
+\newtoks\author   %作者姓名
 \newtoks\titlefirst      %题目第一行
 \newtoks\titlesecond  %题目第二行
-\newtoks\majortotal   %年级加专业
+\newtoks\advisor%指导老师
 \newtoks\advisors	 %职称
-%\newtoks\plogo      %logo
+\newtoks\submityear%提交年份
+\newtoks\submitmonth%提交月份
+\newtoks\submitdate   %提交日
+\newtoks\zhtitle		%中文标题
+\newtoks\entitle		%英文标题
+\newtoks\entitletra     %英文多余一行
+\newtoks\titlextra%标题多余一行时添加
+
 
 %自定义命令 固定长度下划线
 \newcommand\dlmu[2][4cm]{\underline{\makebox[#1][c]{#2}}}
@@ -151,7 +144,8 @@
 		\end{center}
 		\vspace{60pt}
 		%日期
-		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 }
+		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 } %自定义日期
+		%\centering{  \zihao{-2}\today} %自动更新日期
 	\end{center}
 }
 \clearpage
