@@ -1,4 +1,4 @@
-\documentclass[UTF8,heading=true,12pt,font=songti]{article}
+\documentclass[UTF8,heading=true,12pt]{article}
 \usepackage{ctex}
 \usepackage{pset}% 论文格式设置文件
 \usepackage[colorlinks,linkcolor=blue]{hyperref} % black 
@@ -19,23 +19,23 @@
 \zhtitle{中文标题}   %中文标题
 \entitle{Title}	%英文标题
 
-%论文内容
 \begin{document}
 	\maketitle% 论文封面
+	%\includepdf[pages=-]{fig/titlepage}% word打印标题页导入
 	\newpage
 	\tableofcontents% 生成目录
 	\setcounter{page}{0}% 此为第零页
 	\thispagestyle{empty}% 页眉页脚为空
 	\newpage
 	\begin{center}
-		\songti \zihao{3}\bfseries{\the\zhtitle}%中文标题
+		\zihao{3}\bfseries{\the\zhtitle}%中文标题
 	\end{center}
 	
 	\begin{table}[H]
 		\vspace{-1.5em}
 		\centering
 		\begin{spacing}{1.5}
-			\songti \zihao{5}
+			\zihao{5}
 			\begin{tabular}{rl} %设置表格字体位置(右左)
 				学生姓名: {\the\author} & 学号: {\the\serialnumber}\\ 
 				{\the\college} & {\the\major}专业\\
@@ -46,10 +46,10 @@
 	\end{table}
 	
 	\addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
-	\noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}: \kaishu\zihao{-4} \ 摘要内容 % 无缩进
+	\noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}:{\kaishu\zihao{-4}\ 摘要内容} % 无缩进
 	
 	
-	\noindent {\heiti \zihao{-4}\bfseries{关键词}}:\kaishu\zihao{-4} \ 内容 % 无缩进
+	\noindent {\heiti \zihao{-4}\bfseries{关键词}}:{\kaishu\zihao{-4}\ 内容}% 无缩进
 	
 	\begin{center}
 		\zihao{3}{\the\entitle}%英文标题
@@ -59,35 +59,34 @@
 	
 	\noindent {\zihao{-4}\bfseries{Keywords}}:\ \zihao{-4} Ab
 	
-	%\onehalfspacing %1.5倍行间距
-    \section{前言}
-    \songti
+	\section{诸论}
+	\subsection{研究背景}
+	正文内容
 	$$
-    f(z_0)=\frac{1}{2\pi i}\oint_{\Gamma}\frac{f(z)}{z-z_0}\dd z.
-    $$
-
-    \section{第一节}
-    \lipsum[3]
-    \begin{table}[H]
-	\centering\small
-	\renewcommand{\arraystretch}{1.5} %设置表格行距
-	\caption{符号说明}
-	\begin{tabular}{clc} %设置表格字体位置(中左中)
-		\hline
-		\textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
-		$\eta$ & 定日镜的光学效率 & 无量纲\\
-		\hline
-	\end{tabular}
-	\end{table}
-
-    \subsection{第一小节}
-    引入参考文献\cite{bazlov2024momentsrepresentationnumbers}
+	f(z_0)=\frac{1}{2\pi i}\oint_{\Gamma}\frac{f(z)}{z-z_0}\dd z.
+	$$
+	
+	\section{预备知识}
+	\subsection{常用记号}
+	正文内容
+	\begin{table}[H]
+		\centering\small
+		\renewcommand{\arraystretch}{1.5} %设置表格行距
+		\caption{符号说明}
+		\begin{tabular}{clc} %设置表格字体位置(中左中)
+			\hline
+			\textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
+			$\eta$ & 定日镜的光学效率 & 无量纲\\
+			\hline
+		\end{tabular}
+	\end{table}  
+	引入参考文献 \cite{bazlov2024momentsrepresentationnumbers}
 	\begin{theorem}
 		这是定理
 	\end{theorem}
-
-    \subsubsection{小小一节}
-    \begin{figure}[H]
+	
+	\subsubsection{小小一节}
+	\begin{figure}[H]
 		\centering
 		\subfloat[示意图]{\includegraphics[width = 0.5\linewidth]{figure/logo-r.eps}}
 		\hfill
@@ -99,9 +98,10 @@
 		\caption{示意图}
 		\label{fig:label2}
 	\end{figure}  
-
-    \bibliography{ref/ref}
-    \addcontentsline{toc}{section}{参考文献}\tolerance=500 % 将参考文献放进目录
-
+	
+	
+	\bibliography{ref/ref}
+	\addcontentsline{toc}{section}{参考文献}\tolerance=500 % 将参考文献放进目录
+	
 \end{document}
     
