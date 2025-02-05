@@ -11,8 +11,9 @@
 \usepackage{titlesec}
 \usepackage{xparse,amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
 \usepackage{physics}
+%\usepackage[T1]{fontenc}
 %\usepackage{mathptmx}% 新罗马字体
-\usepackage{times}
+%\usepackage{times}
 \usepackage[ruled,linesnumbered]{algorithm2e}
 \usepackage{gbt7714}% 参考文献格式
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
@@ -115,33 +116,33 @@
 	\cleardoublepage
 	\thispagestyle{empty}
 	{
-	\rightline{
-		\begin{tabular}{l|c|} %设置表格字体位置(左中)
-		\cline{2-2}
-		\songti\zihao{-4}学号：&{\quad \the\serialnumber \quad\  }\\
-		\cline{2-2}
-		\end{tabular}
-	}
-	\vspace{1.5cm}
-	\begin{center}
-		\includegraphics[width=11.32cm]{fig/logo.png}\\
-		\vspace{1.5cm}
-		{\gbkaiti\zihao{-0}\textbf{本科毕业论文（设计）}}
-		\vspace{3cm}
-		%横线信息
-		\begin{center}
-			\zihao{4}
-			\renewcommand{\arraystretch}{1.2}
-			\begin{tabular}{rl}
-				&\makebox[4em][s]{学院}\dlmu[10cm]{\the\college} \\
-				&\makebox[4em][s]{专业}\dlmu[10cm]{\the\major}      \\
-				&\makebox[4em][s]{年级}\dlmu[10cm]{\the\grade}   \\
-				&\makebox[4em][s]{姓名}\dlmu[10cm]{\the\author}   \\
-				&\makebox[4em][s]{论文（设计）题目}	\hspace{1.2cm}	\dlmu[8.5cm]{\the\titlefirst}   \\ 
-				&\hspace{3.5cm}\dlmu[8.5cm] {\the\titlesecond}		\\
-				&\makebox[4em][s]{指导教师}\dlmu[4.45cm]{\the\advisor} {职称}\dlmu[4.45cm]{\the\advisors}   \\
+		\rightline{
+			\begin{tabular}{l|c|} %设置表格字体位置(左中)
+				\cline{2-2}
+				\songti\zihao{-4}学号：&{\quad \the\serialnumber \quad\  }\\
+				\cline{2-2}
 			\end{tabular}
-		\end{center}
+		}
+		\vspace{1.5cm}
+		\begin{center}
+			\includegraphics[width=11.32cm]{fig/logo.png}\\
+			\vspace{1.5cm}
+			{\gbkaiti\zihao{-0}\textbf{本科毕业论文}}
+			\vspace{3cm}
+			%横线信息
+			\begin{center}
+				\zihao{4}
+				\renewcommand{\arraystretch}{1.2}
+				\begin{tabular}{rl}
+					&\makebox[4em][s]{学院}\dlmu[10cm]{\the\college} \\
+					&\makebox[4em][s]{专业}\dlmu[10cm]{\the\major}      \\
+					&\makebox[4em][s]{年级}\dlmu[10cm]{\the\grade}   \\
+					&\makebox[4em][s]{姓名}\dlmu[10cm]{\the\author}   \\
+					&\makebox[4em][s]{论文（设计）题目}	\hspace{1.2cm}	\dlmu[8.5cm]{\the\titlefirst}   \\ 
+					&\hspace{3.5cm}\dlmu[8.5cm] {\the\titlesecond}		\\
+					&\makebox[4em][s]{指导教师}\dlmu[4.45cm]{\the\advisor} {职称}\dlmu[4.45cm]{\the\advisors}   \\
+				\end{tabular}
+			\end{center}
 		\vspace{60pt}
 		%日期
 		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 } %自定义日期

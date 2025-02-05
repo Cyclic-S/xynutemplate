@@ -14,8 +14,8 @@
 \advisor{NAME} %指导老师
 \advisors{Prof.} %职称
 \submityear{25} %提交年份
-\submitmonth{1} %提交月份
-\submitdate{4}  %提交日
+\submitmonth{2} %提交月份
+\submitdate{5}  %提交日
 \zhtitle{中文标题}   %中文标题
 \entitle{Title}	%英文标题
 
@@ -69,15 +69,16 @@
     \section{第一节}
     \lipsum[3]
     \begin{table}[H]
-        \centering
-        \caption{符号说明}
-        \begin{tabular}{clc} %设置表格字体位置(中左中)
-            \hline
-            \textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
-            $\eta$ & 定日镜的光学效率 & 无量纲\\	
-            \hline
-        \end{tabular}
-    \end{table}
+	\centering\small
+	\renewcommand{\arraystretch}{1.5} %设置表格行距
+	\caption{符号说明}
+	\begin{tabular}{clc} %设置表格字体位置(中左中)
+		\hline
+		\textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
+		$\eta$ & 定日镜的光学效率 & 无量纲\\
+		\hline
+	\end{tabular}
+	\end{table}
 
     \subsection{第一小节}
     引入参考文献\cite{bazlov2024momentsrepresentationnumbers}
