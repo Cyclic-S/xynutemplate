@@ -8,10 +8,10 @@
 
 * ```main.tex```导言区中
 ```tex
-\usepackage[colorlinks,linkcolor=blue]{hyperref} % 将blue替换为black可修改目录文字颜色为黑色 
+\usepackage{hyperref} % 超链接使用了默认方框
 ```
 
-* TeXstudio中选择**XeLaTex**或使用命令行运行```latexmk -xelatex main.tex```(使用latexmk需安装[Strawberry Perl](https://strawberryperl.com/))
+* TeXstudio中选择**XeLaTex**或在命令行窗口运行```latexmk -xelatex main.tex```(使用latexmk需安装[Strawberry Perl](https://strawberryperl.com/))
 
 * 使用BibTeX文献管理，用编辑器编辑```ref/ref.bib```文件或使用[JabRef](https://www.jabref.org/)打开
 
@@ -25,4 +25,4 @@
 | fig/logo.png | 信阳师范大学校徽及校名图片         |
 | FangSongGB2312.ttf | 仿宋_GB2312字体         |
 | KaiTiGB2312.ttf | 楷体_GB2312字体      |
-| run.bat | 运行并删除中间文件的脚本文件 |
+| run.bat | 编译并删除中间文件的脚本文件 |
