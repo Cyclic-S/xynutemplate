@@ -1,4 +1,4 @@
-\usepackage{xeCJK}%导入文件夹下字体文件
+\RequirePackage{xeCJK}%导入文件夹下字体文件
 \setCJKfamilyfont{gbkaiti}{KaiTiGB2312.ttf}% 楷体_GB2312
 \newcommand{\gbkaiti}{\CJKfamily{gbkaiti}}
 \setCJKfamilyfont{gbfangsong}{FangSongGB2312.ttf}% 仿宋_GB2312
@@ -9,25 +9,25 @@
 \setCJKmainfont{SimSun}%正文字体
 
 % 一些可能要用到的宏包
-\usepackage{cite}
-\usepackage{fontawesome}
-\usepackage{pdfpages}
-\usepackage{titlesec}
-\usepackage{xparse,amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
-\usepackage{physics}
-%\usepackage[T1]{fontenc}
-%\usepackage{mathptmx}% 新罗马字体
-%\usepackage{times}
-\usepackage[ruled,linesnumbered]{algorithm2e}
-\usepackage{gbt7714}% 参考文献格式
-\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
-\usepackage{lipsum}% 生成示例
+\RequirePackage{cite}
+\RequirePackage{fontawesome}
+\RequirePackage{pdfpages}
+\RequirePackage{titlesec}
+\RequirePackage{xparse,amsmath,amsfonts,mathrsfs,amsthm,amssymb,tikz,bm,graphicx,url,listings,subfig,float,subcaption}
+\RequirePackage{physics}
+%\RequirePackage[T1]{fontenc}
+%\RequirePackage{mathptmx}% 新罗马字体
+%\RequirePackage{times}
+\RequirePackage[ruled,linesnumbered]{algorithm2e}
+\RequirePackage{gbt7714}% 参考文献格式
+\RequirePackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}% ,showframe 显示框图
+\RequirePackage{lipsum}% 生成示例
 
 % 设置目录格式
-\usepackage{titlesec,titletoc}
+\RequirePackage{titlesec,titletoc}
 \renewcommand{\contentsname}{\centering{\quad \\
 		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}} % 黑体三号字加黑居中
-\usepackage[titles,subfigure]{tocloft}
+\RequirePackage[titles,subfigure]{tocloft}
 \renewcommand\cftsecdotsep{\cftdotsep}
 \renewcommand\cftsecleader{\cftdotfill{\cftsecdotsep}}
 \renewcommand\cftsecfont{\songti\zihao{-4}} % section字号字体
@@ -51,7 +51,7 @@
 \newcommand{\s}{\textbf{解答}$\quad$}
 
 %行间距设置
-\usepackage{setspace}
+\RequirePackage{setspace}
 \renewcommand{\baselinestretch}{1.5} % 1.5倍行间距
 
 %页面样式设置
