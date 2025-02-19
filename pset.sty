@@ -6,7 +6,7 @@
 % 英文字体
 \setmainfont{Times New Roman} % 常规英文字体
 % 中文字体配置部分
-\setCJKmainfont{SimSun}%正文字体
+%\setCJKmainfont{SimSun}%正文字体
 
 % 一些可能要用到的宏包
 \RequirePackage{cite}
@@ -43,13 +43,19 @@
 \renewcommand{\qed}{\hfill\blacksquare}
 \newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
 \numberwithin{equation}{subsection}
-\newtheorem{theorem}{\hspace{2em}定理}[subsection]
-\newtheorem{lemma}{\hspace{2em}引理}[subsection]
-\newtheorem{definition}{\hspace{2em}定义}[subsection]
-\newcommand{\pf}{\textbf{证明}$\quad$}
-\newcommand{\q}{\textbf{问题}$\quad$}
-\newcommand{\s}{\textbf{解答}$\quad$}
-
+\newtheorem{theorem}{\hspace{2em}\textbf{定理}}[section]
+\newtheorem{lemma}[theorem]{\hspace{2em}\textbf{引理}}
+\newtheorem{definition}[theorem]{\hspace{2em}\textbf{定义}}
+\newcommand{\qu}{\textbf{例题}\hspace{0.5em}}
+\newcommand{\pf}{\textbf{证明}\hspace{0.5em}}
+\newcommand{\slo}{\textbf{解}\hspace{0.5em}}
+\newcommand{\zy}{\textbf{注意}\hspace{0.5em}}
+\newcommand{\sm}{\textbf{说明}\hspace{0.5em}}
+\newcommand{\an}{\textbf{分析}\hspace{0.5em}}
+\newcommand{\xz}{\textbf{性质}\hspace{0.5em}}
+\makeatletter
+\g@addto@macro\th@plain{\thm@headpunct{}} %去除定义环境后点
+\makeatother
 %行间距设置
 \RequirePackage{setspace}
 \renewcommand{\baselinestretch}{1.5} % 1.5倍行间距
@@ -138,16 +144,16 @@
 				\zihao{4}
 				\renewcommand{\arraystretch}{1.2}
 				\begin{tabular}{rl}
-					&\makebox[4em][s]{学院}\dlmu[10cm]{\the\college} \\
-					&\makebox[4em][s]{专业}\dlmu[10cm]{\the\major}      \\
-					&\makebox[4em][s]{年级}\dlmu[10cm]{\the\grade}   \\
-					&\makebox[4em][s]{姓名}\dlmu[10cm]{\the\author}   \\
-					&\makebox[4em][s]{论文（设计）题目}	\hspace{1.2cm}	\dlmu[8.5cm]{\the\titlefirst}   \\ 
-					&\hspace{3.5cm}\dlmu[8.5cm] {\the\titlesecond}		\\
-					&\makebox[4em][s]{指导教师}\dlmu[4.45cm]{\the\advisor} {职称}\dlmu[4.45cm]{\the\advisors}   \\
+					&\makebox[4em][s]{学院}\dlmu[10cm]{\kaishu\the\college} \\
+					&\makebox[4em][s]{专业}\dlmu[10cm]{\kaishu\the\major}      \\
+					&\makebox[4em][s]{年级}\dlmu[10cm]{\kaishu\the\grade}   \\
+					&\makebox[4em][s]{姓名}\dlmu[10cm]{\kaishu\the\author}   \\
+					&\makebox[4em][s]{论文（设计）题目}	\hspace{1.2cm}	\dlmu[8.5cm]{\kaishu\the\titlefirst}   \\ 
+					&\hspace{3.5cm}\dlmu[8.5cm] {\kaishu\the\titlesecond}		\\
+					&\makebox[4em][s]{指导教师}\dlmu[4.45cm]{\kaishu\the\advisor} {职称}\dlmu[4.45cm]{\kaishu\the\advisors}   \\
 				\end{tabular}
 			\end{center}
-		\vspace{60pt}
+			\vspace{60pt}
 		%日期
 		\centering{  \zihao{-2}20{\the\submityear} 年{ \the\submitmonth} 月 {\the \submitdate} 日 } %自定义日期
 		%\centering{  \zihao{-2}\today} %自动更新日期

@@ -1,4 +1,4 @@
-\documentclass[UTF8,heading=true,12pt]{article}
+\documentclass[UTF8,heading=true,12pt,font=songti]{article}
 \usepackage{ctex}
 \usepackage{pset}% 论文格式设置文件
 \usepackage{hyperref} % 超链接默认方框
@@ -46,18 +46,19 @@
 	\end{table}
 	
 	\addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
-	\noindent {\heiti \zihao{-4}\bfseries{摘\quad 要}}:{\kaishu\zihao{-4}\ 摘要内容} % 无缩进
+	{\heiti \zihao{-4}\bfseries{摘\quad 要}}:{\kaishu\zihao{-4}\ 摘要内容} % 缩进
 	
 	
-	\noindent {\heiti \zihao{-4}\bfseries{关键词}}:{\kaishu\zihao{-4}\ 内容}% 无缩进
+	{\heiti \zihao{-4}\bfseries{关键词}}:{\kaishu\zihao{-4}\ 内容}% 缩进
 	
 	\begin{center}
 		\zihao{3}{\the\entitle}%英文标题
 	\end{center}
 	\addcontentsline{toc}{section}{\bfseries Abstract}\tolerance=500 % 将Abstract放进目录
-	\noindent {\zihao{-4}\bfseries{Abstract}}:\ \zihao{-4} \lipsum[1]
 	
-	\noindent {\zihao{-4}\bfseries{Keywords}}:\ \zihao{-4} Ab
+	{\zihao{-4}\bfseries{Abstract}}:\ \zihao{-4} Ab
+	
+	{\zihao{-4}\bfseries{Keywords}}:\ \zihao{-4} Ab
 	
 	\section{诸论}
 	\subsection{研究背景}
@@ -81,9 +82,18 @@
 		\end{tabular}
 	\end{table}  
 	引入参考文献 \cite{bazlov2024momentsrepresentationnumbers}
-	\begin{theorem}
+	\begin{theorem}[thm]
 		这是定理
 	\end{theorem}
+	\begin{lemma}
+		hi
+	\end{lemma}
+	\begin{definition}
+		hi
+	\end{definition}
+	\qu zm
+	
+	\pf 证明
 	
 	\subsubsection{小小一节}
 	\begin{figure}[H]
