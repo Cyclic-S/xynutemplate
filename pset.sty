@@ -6,7 +6,11 @@
 % 英文字体
 \setmainfont{Times New Roman} % 常规英文字体
 % 中文字体配置部分
-%\setCJKmainfont{SimSun}%正文字体
+\setCJKmainfont{SimSun}[AutoFakeSlant]%正文字体
+
+%行间距设置
+\RequirePackage{setspace}
+\renewcommand{\baselinestretch}{1.5} % 1.5倍行间距
 
 % 一些可能要用到的宏包
 \RequirePackage{cite}
@@ -26,7 +30,7 @@
 % 设置目录格式
 \RequirePackage{titlesec,titletoc}
 \renewcommand{\contentsname}{\centering{\quad \\
-		\heiti\zihao{3}\bfseries{目\qquad 录\par\par}}} % 黑体三号字加黑居中
+		\heiti\zihao{3}{目\qquad 录\par\par}}} % 黑体三号字加黑居中
 \RequirePackage[titles,subfigure]{tocloft}
 \renewcommand\cftsecdotsep{\cftdotsep}
 \renewcommand\cftsecleader{\cftdotfill{\cftsecdotsep}}
@@ -56,15 +60,16 @@
 \makeatletter
 \g@addto@macro\th@plain{\thm@headpunct{}} %去除定义环境后点
 \makeatother
-%行间距设置
-\RequirePackage{setspace}
-\renewcommand{\baselinestretch}{1.5} % 1.5倍行间距
+
 
 %页面样式设置
 \pagestyle{plain} % 仅页脚显示页数
 %\everymath{\displaystyle}
 
 % 代码格式
+\RequirePackage{xcolor}
+\definecolor{dkgreen}{RGB}{3,128,19}
+\definecolor{dkpurple}{RGB}{170,62,245}
 \lstset{
 	frame=trbl,
 	aboveskip=3mm,
@@ -80,14 +85,14 @@
 	numbersep=1em,
 	numberstyle=\color{black},
 	keywordstyle=\color{blue},
-	commentstyle=\color{gray},
-	stringstyle=\color{mauve},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{dkpurple},
 	tabsize=3,
 }
 
 % 节标题字体设置
-\ctexset{section={format={\songti \zihao{4}\bfseries}},
-	subsection={format={\songti \zihao{-4}\bfseries}},
+\ctexset{section={format={\bfseries\zihao{4}}},
+	subsection={format={\bfseries\zihao{-4}}},
 	subsubsection={format={\gbfangsong \zihao{-4}}}}
 
 % 表格及图片标题样式设置-
@@ -137,7 +142,7 @@
 		\begin{center}
 			\includegraphics[width=11.32cm]{fig/logo.png}\\
 			\vspace{1.5cm}
-			{\gbkaiti\zihao{-0}\textbf{本科毕业论文}}
+			{\gbkaiti\zihao{-0}\bfseries{本科毕业论文}}
 			\vspace{3cm}
 			%横线信息
 			\begin{center}

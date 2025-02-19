@@ -1,4 +1,4 @@
-\documentclass[UTF8,heading=true,12pt,font=songti]{article}
+\documentclass[UTF8,heading=true,12pt,AutoFakeBold={3.17}]{article}
 \usepackage{ctex}
 \usepackage{pset}% 论文格式设置文件
 \usepackage{hyperref} % 超链接默认方框
@@ -46,10 +46,10 @@
 	\end{table}
 	
 	\addcontentsline{toc}{section}{摘\quad 要}\tolerance=500 % 将摘要放进目录
-	{\heiti \zihao{-4}\bfseries{摘\quad 要}}:{\kaishu\zihao{-4}\ 摘要内容} % 缩进
+	{\heiti \zihao{-4}{摘\quad 要}}:{\kaishu\zihao{-4}\ 摘要内容} % 缩进
 	
 	
-	{\heiti \zihao{-4}\bfseries{关键词}}:{\kaishu\zihao{-4}\ 内容}% 缩进
+	{\heiti \zihao{-4}{关键词}}:{\kaishu\zihao{-4}\ 内容}% 缩进
 	
 	\begin{center}
 		\zihao{3}{\the\entitle}%英文标题
@@ -72,15 +72,15 @@
 	正文内容
 	\begin{table}[H]
 		\centering\small
-		\renewcommand{\arraystretch}{1.5} %设置表格行距
+		\renewcommand{\arraystretch}{1} %设置表格行距
 		\caption{符号说明}
 		\begin{tabular}{clc} %设置表格字体位置(中左中)
 			\hline
-			\textbf{符号} & \textbf{说明} & \textbf{单位} \\ \hline
-			$\eta$ & 定日镜的光学效率 & 无量纲\\
+			\heiti{符号} & \heiti{说明} & \heiti{单位} \\ \hline
+			$\eta$ & 效率 & 无量纲\\
 			\hline
 		\end{tabular}
-	\end{table}  
+	\end{table}   
 	引入参考文献 \cite{bazlov2024momentsrepresentationnumbers}
 	\begin{theorem}[thm]
 		这是定理
@@ -112,6 +112,9 @@
 	
 	\bibliography{ref/ref}
 	\addcontentsline{toc}{section}{参考文献}\tolerance=500 % 将参考文献放进目录
-	
+	\section*{附录}
+	\addcontentsline{toc}{section}{附录}
+	\subsection*{代码一}
+	\lstinputlisting[language=matlab]{code/q.m}
 \end{document}
     
