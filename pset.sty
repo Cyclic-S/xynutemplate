@@ -6,7 +6,7 @@
 % 英文字体
 \setmainfont{Times New Roman} % 常规英文字体
 % 中文字体配置部分
-\setCJKmainfont{SimSun}[AutoFakeSlant]%正文字体
+\setCJKmainfont{SimSun}%正文字体
 
 %行间距设置
 \RequirePackage{setspace}
@@ -46,7 +46,7 @@
 %定义环境
 \renewcommand{\qed}{\hfill\blacksquare}
 \newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
-\numberwithin{equation}{subsection}
+%\theoremstyle{definition} %环境中内容设置为正体
 \newtheorem{theorem}{\hspace{2em}\textbf{定理}}[section]
 \newtheorem{lemma}[theorem]{\hspace{2em}\textbf{引理}}
 \newtheorem{definition}[theorem]{\hspace{2em}\textbf{定义}}
@@ -61,12 +61,11 @@
 \g@addto@macro\th@plain{\thm@headpunct{}} %去除定义环境后点
 \makeatother
 
-
 %页面样式设置
 \pagestyle{plain} % 仅页脚显示页数
 %\everymath{\displaystyle}
 
-% 代码格式
+% matlab代码格式
 \RequirePackage{xcolor}
 \definecolor{dkgreen}{RGB}{3,128,19}
 \definecolor{dkpurple}{RGB}{170,62,245}
